@@ -1,0 +1,236 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  /* font-family: Averta, sans-serif; */
+}
+.section_one {
+  background-image: url("https://zuri.team/img/hero-bg.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+  width: 100%;
+  /*background-color: rgb(248, 234, 208);*/
+  padding-top: 5%;
+}
+span {
+  color: red;
+}
+.top {
+  text-align: center;
+  color: rgb(94, 91, 91);
+  font-size: 150%;
+  font-weight: bold;
+}
+.top1 {
+  margin-top: 5%;
+  margin-bottom: 3%;
+  text-align: center;
+  color: rgb(94, 91, 91);
+  font-size: 200%;
+  font-weight: bold;
+}
+.intro {
+  color: rgb(134, 132, 132);
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+  width: 55%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.newbie {
+  color: white;
+  font-weight: bold;
+  background-color: rgb(248, 50, 50);
+  padding: 15px 30px;
+  border: none;
+}
+.newbie:hover {
+  color: rgb(248, 50, 50);
+  font-weight: normal;
+  background-color: white;
+  padding: 15px 30px;
+  border: 1px solid rgb(248, 50, 50);
+  cursor: pointer;
+}
+.experience {
+  color: rgb(248, 50, 50);
+  font-weight: normal;
+  background-color: white;
+  padding: 15px 30px;
+  border: 1px solid rgb(248, 50, 50);
+  cursor: pointer;
+}
+.experience:hover {
+  font-weight: bold;
+  color: white;
+  padding: 15px 30px;
+  background-color: rgb(248, 50, 50);
+}
+.KnowMore {
+  margin-top: 6%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+/* This is the styles for Section 2 */
+.section_two{
+    width: 100%;
+    margin-top: 15%;
+}
+.zuri{
+    text-align: center;
+    color: red;
+    font-size: 14px;
+}
+.zuri2{
+    color: rgb(94, 91, 91);
+    font-size: 22px;
+    width: 30%;
+    line-height: 2;
+    margin: 20px auto 30px auto;
+    text-align: center;
+}
+
+/* SECTION THREE */
+.Term1,
+.Term2,
+.Term3{
+    color:rgb(94, 91, 91);
+    width: 30%;
+    background-color: rgb(250, 247, 243);
+    line-height: 1.5;
+    padding: 4% 4% 4% 2%;
+}
+.Definition{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+.section_three {
+    margin: 5%;
+    /* background-image: url("https: //res.cloudinary.com/dafsch2zs/image/upload/v1596628122/Zuri%20Landing/right_yz6hn3.png"); 
+    background-position: right top;*/
+    display: flex;
+    justify-content: space-between;
+}
+.navigation:hover{
+    cursor: pointer;
+}
+/* SECTION FOUR */
+.section_four{
+  display:flex;
+  justify-content: space-around;
+  margin-top: 16%;
+  margin-bottom:8% ;
+}
+#links,
+#contacts,
+#follow_Us{
+  color: rgb(77, 75, 75);
+  font-size: 16px;
+  margin-bottom: 7%;
+}
+#store_blog{
+  line-height: 3;
+  font-size: 14px;
+}
+.store{
+  color: rgb(248, 50, 50);
+    text-decoration: none;
+}
+.store:hover{
+  color: rgba(250, 93, 93, 0.8);
+  cursor: pointer;
+}
+#address{
+  color:rgb(122, 120, 120);
+  font-size: 14px;
+  width: 80%;
+  margin-bottom: 5%;
+}
+#Hi{
+  color: rgb(248, 50, 50);
+  text-decoration: none; 
+  font-size: 14px;
+}
+#Hi:hover{
+  cursor: pointer;
+  color: rgba(250, 93, 93, 0.8);
+}
+/* THE BOTTOM SECTION */
+.bottom{
+  margin-top: 3%;
+  margin-bottom: 5%;
+  text-align: center;
+  font-size: 17px;
+  color: rgb(122, 120, 120);
+}
+
+/* RESPONSIVENESS */
+@media screen and (max-width:700px){
+  .section_one{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20%;
+  }
+  .intro{
+    width: 80%;
+    margin-bottom: 6%;
+  }
+  .KnowMore {
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+    .top1 {
+      margin-top: 15%;
+      margin-bottom: 8%;
+  }
+  .zuri2{
+    width: 70%;
+  }
+  .section_three{
+    display: flex;
+    flex-direction: column;
+  }
+  .Term1,
+  .Term2,
+  .Term3{
+    margin: 7% auto;
+    width: 80%;
+    padding: 10% 8%;
+  }
+  .Definition,
+  .navigation{
+    font-size: 13px;
+  }
+  .section_four{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+  }
+  .zurilogo,
+  .TheLinks,
+  .TheContacts,
+  .TheFollowUs{
+    margin: 7% auto;
+    text-align: center;
+  }
+  #contacts,
+  #address,
+  #follow_Us,
+  #Hi{
+    text-align:center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
