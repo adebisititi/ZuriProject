@@ -190,7 +190,10 @@ span {
     text-align: center;
     gap: 30px;
   }
-    .top1 {
+  .newbie{
+    margin-bottom: 3%;
+  }
+  .top1 {
       margin-top: 15%;
       margin-bottom: 8%;
   }
