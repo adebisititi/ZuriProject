@@ -53,7 +53,7 @@ nav a:hover{
     text-decoration: none;
     font-size: 17px;
     font-weight: 400;
-    width: 65%;
+    width: 60%;
     text-align: center;
 }
 .enroll:hover{
@@ -74,8 +74,8 @@ nav a:hover{
     border-radius: 50%;
     position: absolute;
     left: 74%;
-    padding-top: 9px;
-    padding-left: 10px;
+    padding-top: 11px;
+    padding-left: 12px;
 }
 
 /* THIS IS SECTION TWO (i.e Content_1) */
@@ -170,7 +170,8 @@ nav a:hover{
     border-top: 1px solid rgb(209, 203, 203);
     border-bottom:1px solid rgb(209, 203, 203);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 90%;
     
 }
 .about-i4g{
@@ -202,7 +203,7 @@ nav a:hover{
     background-color: rgb(250, 243, 234);
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space- space-between;
 }
 .WhyZuri{
     padding: 6% 5%;
@@ -485,6 +486,17 @@ nav a:hover{
     background-color: white;
     border: none;
     border-radius: 40px;
+}
+/* .frontend-icons,
+.backend-icons,
+.product-design-icons, */
+.devOps-icons,
+.fullstack-icons,
+.frameworks-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
 }
 .box1a h3,
 .box2a h3,
@@ -882,22 +894,20 @@ nav a:hover{
             width: 0px;
         }
         .content_2a {
-            height: 80vh;
+           height: 500px;
            display: flex;
            flex-direction: column;
+           justify-content: center;
            align-items: center;
-    
         }
-    
         .about-i4g {
-            width: 90%;
+            width: 95%;
             padding-top: 4%;
             font-weight: bolder;
             text-align: center;
         }
-    
         .mission {
-            width: 90%;
+            width: 95%;
             color: rgb(70, 68, 68);
             font-size: 12px;
             text-align: center;
@@ -1292,7 +1302,7 @@ nav a:hover{
             font-size: 13px;
         }
         .bottom-zurilogo{
-            width: 80%;
+            width: 90%;
             margin-left: auto;
             margin-right:auto;
         }

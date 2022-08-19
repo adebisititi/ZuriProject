@@ -163,6 +163,11 @@ span {
   cursor: pointer;
   color: rgba(250, 93, 93, 0.8);
 }
+.media_logos{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 /* THE BOTTOM SECTION */
 .bottom{
   margin-top: 3%;
